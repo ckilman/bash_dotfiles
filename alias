@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#alias additions added here
+alias ls="ls -F --color"	# add colors for filetype recognition
+alias ll="ls -l"
+alias lx="ls -lXB"		# sort by extension
+alias lk="ls -lhSr"		# sort by size
+alias la="ls -Ahl"		# show hidden files
+alias lr="ls -lhR"		# recursice ls
+alias lt="ls -lhtr"		# sort by date
+alias lm="ls -ahl | more"	# pipe through 'more'
+alias tree="tree -Ch"		# nice alternative to 'ls'
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
+alias install='sudo apt-get install'
+alias documents='cd ~/Documents'
+alias downloads='cd ~/Downloads'
+alias desktop='cd ~/Desktop'
+alias music='cd ~/Music'
+alias vi="vim"
+alias svim="sudo vim"
+alias svi="sudo vim"
+alias sshstat="sudo netstat -tpan | grep \"[s]shd\""
+# -> Prevents accidentally clobbering files
+alias rm="rm -vi"
+alias cp="cp -vi"
+alias mv="mv -vi"
