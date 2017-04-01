@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #alias additions added here
-alias ls="ls -F --color"	# add colors for filetype recognition
+alias ls="ls -F --color"	# add colors for file-type recognition
 alias ll="ls -l"
 alias lx="ls -lXB"		# sort by extension
 alias lk="ls -lhSr"		# sort by size
 alias la="ls -Ahl"		# show hidden files
-alias lr="ls -lhR"		# recursice ls
+alias lr="ls -lhR"		# recursive ls
 alias lt="ls -lhtr"		# sort by date
 alias lm="ls -ahl | more"	# pipe through 'more'
 alias tree="tree -Ch"		# nice alternative to 'ls'

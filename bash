@@ -21,7 +21,7 @@ HISTFILESIZE=2000
 
 # Configure moving up directories
 # example use: up 3
-#           to move up three direcotries
+#           to move up three directories
 #           and can 'cd -' to get back
 up() {
     DEEP=$1
