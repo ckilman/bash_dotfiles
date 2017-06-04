@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #alias additions added here
-alias ls="ls -F --color"	# add colors for file-type recognition
+alias ls="ls --color"	# add colors for file-type recognition
 alias ll="ls -l"
 alias lx="ls -lXB"		# sort by extension
 alias lk="ls -lhSr"		# sort by size
